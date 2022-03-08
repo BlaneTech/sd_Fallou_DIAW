@@ -17,7 +17,7 @@ def convertToYaml(newyaml):
     yaml.dump(newyaml, yamlfile, indent=2)
 
 
-def convertToCsv(newcsv):
+"""def convertToCsv(newcsv):
     #csvjson = convertToJson(newcsv)
     import csv
     liste = list()
@@ -27,4 +27,4 @@ def convertToCsv(newcsv):
     writer = csv.DictWriter(csvfile, fieldnames=liste)
     writer.writeheader()
     for data in newcsv:
-        writer.writerow(data)
+        writer.writerow(data)"""
